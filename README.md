@@ -2,7 +2,7 @@
 
 Upstream mirror for 8 skill repos consolidated into a single sync point for [AgentHub](https://github.com/AiFeatures/agent-hub).
 
-Each upstream is stored in `sources/<repo-name>/` and synced via `sync-upstreams.sh`.
+Each upstream is stored in `skills/<repo-name>/` and synced via `sync-upstreams.sh`.
 
 ## Sources
 

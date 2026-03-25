@@ -13,7 +13,7 @@ set -uo pipefail
 # =============================================================================
 
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
-SOURCES_DIR="${REPO_DIR}/sources"
+SOURCES_DIR="${REPO_DIR}/skills"
 CONFIG="${REPO_DIR}/upstreams.json"
 
 STATUS_ONLY=false
