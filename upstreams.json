@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "name": "claude-code-skills",
+      "upstream": "https://github.com/levnikolaevich/claude-code-skills.git",
+      "branch": "master",
+      "skill_paths": ["skills-catalog/*/SKILL.md"]
+    },
+    {
+      "name": "claude-scientific-skills",
+      "upstream": "https://github.com/K-Dense-AI/claude-scientific-skills.git",
+      "branch": "main",
+      "skill_paths": ["scientific-skills/*/SKILL.md"]
+    },
+    {
+      "name": "awesome-claude-skills",
+      "upstream": "https://github.com/ComposioHQ/awesome-claude-skills.git",
+      "branch": "master",
+      "skill_paths": ["*/SKILL.md", "composio-skills/*/SKILL.md", "document-skills/*/SKILL.md"]
+    },
+    {
+      "name": "claude-code-skills-3",
+      "upstream": "https://github.com/daymade/claude-code-skills.git",
+      "branch": "main",
+      "skill_paths": ["*/SKILL.md"]
+    },
+    {
+      "name": "azure-skills",
+      "upstream": "https://github.com/microsoft/azure-skills.git",
+      "branch": "main",
+      "skill_paths": ["skills/*/SKILL.md"]
+    },
+    {
+      "name": "superpowers",
+      "upstream": "https://github.com/obra/superpowers.git",
+      "branch": "main",
+      "skill_paths": ["skills/*/SKILL.md"]
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "upstream": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+      "branch": "main",
+      "skill_paths": [".claude/skills/*/SKILL.md"]
+    },
+    {
+      "name": "obsidian-skills",
+      "upstream": "https://github.com/kepano/obsidian-skills.git",
+      "branch": "main",
+      "skill_paths": ["skills/*/SKILL.md"]
+    }
+  ]
+}
